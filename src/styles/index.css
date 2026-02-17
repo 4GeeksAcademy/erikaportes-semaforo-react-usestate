@@ -1,11 +1,46 @@
-/* 
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.stickSemaforo {
+    display: inline-block;
+    background: black;
+    width: 15px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5%;
+}
 
-*/
+.baseSemaforo {
+    display: inline-block;
+    background: black;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.light {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+
+.light.rojo { 
+    background: red;
+}
+
+.light.amarillo { 
+    background: yellow;
+}
+
+.light.verde { 
+    background: green;
+}
+
+.glow {
+    box-shadow: 0 0 30px yellow;
+}
+
+
